@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/entreprendre"
+        android:title="Entreprendre" />
+    <item
+        android:id="@+id/emploi"
+        android:title="Emploi" />
+    <item
+        android:id="@+id/Acte"
+        android:title="Acte" />
+    <item
+        android:id="@+id/cours"
+        android:title="Cours" />
+</menu>

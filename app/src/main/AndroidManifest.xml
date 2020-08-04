@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.paidinfull.dunya">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:allowBackup="true"
+        android:icon="@drawable/cedelion"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/cedelion"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".entreprise.facturation.Facturier"></activity>
+        <activity android:name=".acte.Acte" />
+        <activity android:name=".emploi.Emploi" />
+        <activity android:name=".entreprise.Entreprendre" />
+        <activity android:name=".entreprise.Todolist.Todolist" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

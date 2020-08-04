@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3"
+    tools:context=".entreprise.Entreprendre">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="411dp"
+        android:layout_height="387dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btv"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="@color/design_default_color_on_secondary"
+        app:itemIconSize="?android:attr/buttonCornerRadius"
+        app:itemIconTint="@color/colorPrimary"
+        app:itemTextAppearanceInactive="@style/CardView.Light"
+        app:itemTextColor="#FDFDFD"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/bottom_navigat"
+        tools:targetApi="p" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
